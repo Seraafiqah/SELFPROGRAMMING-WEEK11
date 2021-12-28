@@ -1,0 +1,21 @@
+package selfProgrammingArray;
+
+public class arrayTest1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+int[] age = new int[5];
+
+age[0] = 11;
+age[1] = 15;
+age[2] = 17;
+age[3] = 18;
+age[4] = 20;
+
+for(int i = 2; i < age.length; i++)
+	System.out.println(age[i]);
+
+	}
+
+}
