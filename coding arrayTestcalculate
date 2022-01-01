@@ -1,0 +1,17 @@
+package selfProgrammingArray;
+
+public class arrayTestcalculate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int[] num = new int [] {10, 40, 60, -10, -3, -10, -21}; //calculate sum of all array elements
+		int sum = 0;
+		
+		for(int x = 0; x < num.length; x++)
+			sum = sum + num[x]; //calculate average value
+			double average = sum / num.length;
+			System.out.println("Average value of the array elements is: " + average);		
+	}
+
+}
