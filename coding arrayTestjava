@@ -1,0 +1,31 @@
+package selfProgrammingArray;
+
+public class arrayTestjava {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int num;
+		int totalnum;
+		int[][] a = {
+				{1, 2, 3},
+				{5, 10, 15},
+				{4,8,12},
+						};
+totalnum = 0;
+for(int x = 0; x < a.length; x++)
+{
+num = 0;
+for(int y = 0; y < a.length; y++)
+{
+	System.out.println(a[x][y]);
+	num=num+a[x][y];
+}
+totalnum+=num;
+
+System.out.println(num);
+System.out.println(totalnum);
+}
+
+	}
+}
